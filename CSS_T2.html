@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 2_CSS</title>
+
+    <style>
+      .vnb {
+        width: 200px;
+      }
+
+      .vnb a {
+        color: blue;
+        display: block;
+        padding: 12px;
+        text-decoration: none;
+        background-color: aqua;
+      }
+
+      .vnb a.home1 {
+        background-color: orange;
+        color: white;
+      }
+
+      .vnb a:hover {
+        background-color: #ccc;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: lightgray;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: blue;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: #ccc;
+      }
+
+      .active {
+        background-color: gray;
+        color: white;
+      }
+      .hnb {
+        margin-left: 20%;
+        margin-top: -24%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="nb">
+      <h4>Vertical Navigation Bar</h4>
+
+      <div class="vnb" style="border: 1px solid black; border-spacing: 10pxś">
+        <a href="#" class="home1">Home</a>
+        <a href="#">Java</a>
+        <a href="#">CSS</a>
+        <a href="#">HTML</a>
+        <a href="#">Bootstrap</a>
+      </div>
+      <br />
+      <br />
+      <div class="hnb" style="border: 1px solid black; margin-top: -200px">
+        <h4>Horizontal Navigation Bar</h4>
+
+        <ul>
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a href="#news">Java</a></li>
+          <li><a href="#contact">CSS</a></li>
+          <li><a href="#about">HTML</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

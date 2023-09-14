@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task7_css</title>
+    <style type="text/css">
+      table,
+      tr,
+      th {
+        margin-left: 100px;
+        margin-top: 100px;
+        background-color: rgb(139, 17, 74);
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 75px;
+        padding-right: 75px;
+        height: 40px;
+      }
+      #Reg {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      style="
+        margin-left: 500px;
+        width: 675px;
+        height: 575px;
+        background-color: rgb(234, 15, 117);
+        padding-top: 10px;
+        padding-bottom: 5px;
+      "
+    >
+      <form>
+        <table>
+          <tr>
+            <td>
+              <label for="name">Name:</label>
+            </td>
+            <td>
+              <input type="text" name="name" placeholder="your name" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="email">Email:</label>
+            </td>
+            <td>
+              <input type="text" name="email" placeholder="your email" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="pwd">Password:</label>
+            </td>
+            <td>
+              <input type="password" name="pwd" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="Phno">Phone Number:</label>
+            </td>
+            <td>
+              <input type="text" name="Phno" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="Gender">Gender:</label>
+            </td>
+            <td>
+              Male:<input type="radio" name="Gender" value="male" />
+              Female:<input type="radio" name="Gender" value="female" />
+              Other:<input type="radio" name="Gender" value="other" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="lang">langauge</label>
+            </td>
+            <td>
+              <select name="lang">
+                <option value="" disabled selected hidden>
+                  Select language
+                </option>
+                <option value="English">English</option>
+                <option value="Hindi">Hindi</option>
+                <option value="French">French</option>
+                <option value="Japanese">Japanese</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="zip">Zip Code:</label>
+            </td>
+            <td>
+              <input type="text" name="zip" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="about">About:</label>
+            </td>
+            <td>
+              <textarea name="about"></textarea>
+            </td>
+          </tr>
+
+          <tr id="Reg">
+            <td>
+              <input type="submit" value="Register" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>

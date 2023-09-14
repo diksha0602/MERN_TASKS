@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Task 5_css</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      nav {
+        float: left;
+        width: 30%;
+        height: 57px;
+        padding: 20px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        padding: 0px;
+      }
+
+      article {
+        float: left;
+        padding: 20px;
+        width: 70%;
+      }
+
+      section::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      li a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="padding-bottom: 34%; padding-left: 34%; padding-right: 34%">
+      <section style="background-color: rgb(232, 232, 25)">
+        <nav style="background-color: rgb(232, 232, 25)">
+          <ul>
+            <br />
+            <li
+              style="
+                background: linear-gradient(to right, white 90%, black 50%);
+                padding: 3px;
+                width: 100px;
+                font-size: 15px;
+              "
+            >
+              <a style="color: purple" href="#">HomePage</a>
+            </li>
+            <br />
+            <li
+              style="
+                background: linear-gradient(to right, white 90%, black 50%);
+                padding: 3px;
+                width: 100px;
+                color: blue;
+                font-size: 15px;
+              "
+            >
+              <a style="color: blue" href="#">Musings</a>
+            </li>
+            <br />
+            <li
+              style="
+                background: linear-gradient(to right, white 90%, black 50%);
+                padding: 3px;
+                width: 100px;
+                color: blue;
+                font-size: 15px;
+              "
+            >
+              <a style="color: blue" href="#">My town</a>
+            </li>
+            <br />
+            <li
+              style="
+                background: linear-gradient(to right, white 90%, black 50%);
+                padding: 3px;
+                width: 100px;
+                color: blue;
+                font-size: 15px;
+              "
+            >
+              <a style="color: blue" href="#">Links</a>
+            </li>
+          </ul>
+        </nav>
+
+        <article>
+          <h1 style="color: purple">My first Styled page</h1>
+          <p style="color: purple">Welcome to my first styled page!</p>
+          <p style="color: purple">
+            It lacks images, but atleast it has style. And it has links, even if
+            they don't go anywhere...
+          </p>
+
+          <p style="color: purple">
+            There should be more here, but I don't know what yet.
+          </p>
+
+          <hr style="background-color: purple" />
+
+          <p style="color: purple">
+            <i
+              >Made 5 April 2004 <br />
+              by myself.</i
+            >
+          </p>
+        </article>
+      </section>
+    </div>
+  </body>
+</html>
